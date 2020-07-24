@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AF4FF"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firstETarray"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorMy"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp" />
+
+    <TextView
+        android:id="@+id/firstTVarray"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorMy"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstETarray" />
+
+    <EditText
+        android:id="@+id/secondETarray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/colorMy"
+        app:layout_constraintTop_toBottomOf="@+id/firstTVarray"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp" />
+
+    <TextView
+        android:id="@+id/secondTVarray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/colorMy"
+        app:layout_constraintTop_toBottomOf="@+id/secondETarray" />
+
+    <EditText
+        android:id="@+id/thirdETarray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/colorMy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondTVarray"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp" />
+
+
+    <TextView
+        android:id="@+id/thirdTVarray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/colorMy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdETarray" />
+
+    <EditText
+        android:id="@+id/fourthETarray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/colorMy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdTVarray"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp" />
+
+    <TextView
+    android:id="@+id/fourthTVarray"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/colorMy"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/fourthETarray" />
+
+    <EditText
+        android:id="@+id/fifthETarray"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorMy"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthTVarray"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp" />
+
+    <TextView
+        android:id="@+id/fifthTVarray"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorMy"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifthETarray" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_me"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/fourthTVarray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="150dp"  />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
